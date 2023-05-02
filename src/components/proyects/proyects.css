@@ -1,10 +1,12 @@
 #proyects-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
-    padding: 8%;
+    
+    
     background-color: black;
 }
 
@@ -12,46 +14,96 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 
-    width: 260px;
-    min-height: 100px;
+    margin: 10% 4%;
+    width: 16%;
+    height: auto;
     
+
     border: 1px solid black;
     border-radius: 25px;
     outline: 0;
 
+   
 
 }
+
+.proyect-link{
+    position: relative;
+    opacity: 0.3;
+    transition: all 0.5s ease-out;
+
+    
+}
+
+.proyect-link a{
+    
+}
+
+.proyect-link svg{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+
+    font-size: 1.3rem;
+    color: #FF6000;
+   
+    
+}
+
+.proyect-img{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+.proyect-link:hover{
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+
+
+
+}
+
+
+
+
 
 .proyect-text-div{
     border-top: 1px solid black;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     
-    background-color: aqua;
-   
-    height: auto;
+    background-color: #454545;
+    
+    padding: 6% 0%;
     width: 100%;
 
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+
+}
+
+
+.proyect-text{
+    padding: 2%;
+    color: #FFF4E0;
+
+    text-align: center;
+    
+    
+}
+
+
+
+.description{
    
-
 }
-
-.proyects:hover .description{
-    transform: scaleY(1);
-    transition: all 1s ease;
-
-
-}
-
-
-.proyect-text-div p{
-    padding: 5%;
-}
-
-
-
 
 
 
@@ -81,28 +133,24 @@
 
 
 
-.description{
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: all 1s ease;
-}
 
-
-.proyect-1-link{
-    
-}
-
-.proyect-img{
-    max-width: 100%;
-    height: auto;
-    opacity: 0.7;
-    transition: all 0.5s ease-out;
-}
-
-.proyect-img:hover{
-    transition: all 1s ease-in-out;
-    opacity: 1;
-
-
+ @media all and (max-width:768px){
+    #proyects-container{
+       
+    }
 
 }
+
+
+@media all and (max-width:425px){
+    #proyects-container{
+       height: 100%;
+    }
+
+    .proyects{
+        margin: 10% 2%;
+        width: 40%;
+    }
+} 
+
+

@@ -1,5 +1,5 @@
 #letter-container{
-    height: 600px;
+    height: 40%;
     background-color: #FFF4E0;
 }
 
@@ -8,7 +8,16 @@
     padding: 10% 0;
 
     font-size: 1.4rem;
+    font-weight: 300;
     line-height: 2rem;
     
     color: black;
+}
+
+
+@media all and (max-width:425px){
+    .letter-text{
+        font-size: 1.2rem;
+        
+    }
 }

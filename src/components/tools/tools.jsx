@@ -12,24 +12,29 @@ import "./tools.css";
 
 function Tools() {
     return (
-      <div className="tools-container">
-        <div className="slide-track">
-          <div className="slide">
-            <SiMysql/>
-            <SiMongodb/>
-            <FaReact/>
-            <FaNodeJs/>
-            <SiJavascript/>
-            <FaGithub/> 
-          </div>
-        </div>  
-      </div>  
+      <div className="marquee-container">
+        <div className="marquee-content">
+          <SiMysql/>
+          <SiMongodb/>
+          <FaReact/>
+          <FaNodeJs/>
+          <SiJavascript/>
+          <FaGithub/> 
+        </div>
+        <div className="marquee-content">
+          <SiMysql/>
+          <SiMongodb/>
+          <FaReact/>
+          <FaNodeJs/>
+          <SiJavascript/>
+          <FaGithub/> 
+        </div>
+      </div>
+       
     );
 }
 
 export default Tools;
-
-
 
 
 

@@ -4,6 +4,7 @@
     justify-content: space-around;
     align-items: center;
 
+    
     margin: 10%;
 }
 
@@ -18,3 +19,28 @@
 
 }
 
+
+@media all and (max-width: 1024px){
+    .title{
+        font-size: 4rem;
+    }
+
+    .subtext{
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width: 425px){
+    .profile-container{
+        margin: 6%;
+        height: 30vh;
+    }
+    
+    .title{
+        font-size: 2.3rem;
+    }
+
+    .subtext{
+        font-size: 1.1rem;
+    }
+}
