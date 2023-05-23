@@ -34,12 +34,13 @@
     position: relative;
     opacity: 0.3;
     transition: all 0.5s ease-out;
-
     
+    height: 315px;
+    width: 100%;
 }
 
 .proyect-link a{
-    
+   
 }
 
 .proyect-link svg{
@@ -130,13 +131,32 @@
     background-color: red;
 }  */
 
+@media all and (max-width:1024px){
+    .proyect-link{
+        height: 270px;
+        
+
+    }
+
+}
 
 
 
 
  @media all and (max-width:768px){
     #proyects-container{
-       
+        height: 100vh;
+     }
+    
+    .proyects{
+        
+        width: 23%;
+    }
+
+    
+    .proyect-link{
+        height: 180px;
+
     }
 
 }
@@ -148,8 +168,13 @@
     }
 
     .proyects{
-        margin: 10% 2%;
-        width: 40%;
+        margin: 15% 10%;
+        width: 60%;
+    }
+
+    .proyect-link{
+        height: 220px;
+        
     }
 } 
 

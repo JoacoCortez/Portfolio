@@ -12,9 +12,6 @@ export default function Navbar() {
             <li>
               <a href="#proyects-container">Proyectos</a>
             </li>
-            <li>
-              <a href="#contact-container">Contacto</a>
-            </li>
         </ul>
       
 

@@ -1,13 +1,16 @@
 #letter-container{
     height: 40%;
+    
+    padding: 16% 4%;
+
     background-color: #FFF4E0;
 }
 
 .letter-text{
-    margin: 8% 8% 0 8%;
-    padding: 10% 0;
-
-    font-size: 1.4rem;
+    
+    
+    text-align: center;
+    font-size: 1.2rem;
     font-weight: 300;
     line-height: 2rem;
     
